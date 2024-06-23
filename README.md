@@ -3,7 +3,7 @@
 ## Todo
 
 - [x] Base porject steup
-- [ ] Next.js Routing & folder structure
+- [x] Next.js Routing & folder structure
 - [ ] Clerk Authentication
 - [ ] Layout Sidebar & Mobile Navigation
 - [ ] Database & Models Setup
