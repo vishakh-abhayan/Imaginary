@@ -4,7 +4,7 @@
 
 - [x] Base porject steup
 - [x] Next.js Routing & folder structure
-- [ ] Clerk Authentication
+- [x] Clerk Authentication
 - [ ] Layout Sidebar & Mobile Navigation
 - [ ] Database & Models Setup
 - [ ] Server Actions & Webhook
