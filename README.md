@@ -5,7 +5,7 @@
 - [x] Base porject steup
 - [x] Next.js Routing & folder structure
 - [x] Clerk Authentication
-- [ ] Layout Sidebar & Mobile Navigation
+- [x] Layout Sidebar & Mobile Navigation
 - [ ] Database & Models Setup
 - [ ] Server Actions & Webhook
 - [ ] Add Image Form (React Hook Form + Zod Validation)
