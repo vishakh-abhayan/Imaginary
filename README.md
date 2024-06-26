@@ -6,7 +6,7 @@
 - [x] Next.js Routing & folder structure
 - [x] Clerk Authentication
 - [x] Layout Sidebar & Mobile Navigation
-- [ ] Database & Models Setup
+- [x] Database & Models Setup
 - [ ] Server Actions & Webhook
 - [ ] Add Image Form (React Hook Form + Zod Validation)
 - [ ] Cloudinary Media Uploader
