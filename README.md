@@ -7,7 +7,7 @@
 - [x] Clerk Authentication
 - [x] Layout Sidebar & Mobile Navigation
 - [x] Database & Models Setup
-- [ ] Server Actions & Webhook
+- [x] Server Actions & Webhook
 - [ ] Add Image Form (React Hook Form + Zod Validation)
 - [ ] Cloudinary Media Uploader
 - [ ] Transformed Image Components
