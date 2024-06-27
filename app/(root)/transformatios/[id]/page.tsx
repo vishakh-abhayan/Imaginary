@@ -1,7 +1,7 @@
 import React from "react";
 
-function TransformatiosPage() {
-  return <div>TransformatiosPage</div>;
+function page() {
+  return <div>page</div>;
 }
 
-export default TransformatiosPage;
+export default page;
