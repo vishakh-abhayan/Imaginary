@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 
 import { ClerkProvider } from "@clerk/nextjs";
 
@@ -26,7 +25,6 @@ export default function RootLayout({
   return (
     <ClerkProvider appearance={{ variables: { colorPrimary: "#624cf5" } }}>
       <html lang="en">
-        <Analytics />
         <body className={cn("font-IBMPlex antialiased", IBMPLex.variable)}>
           {children}
         </body>
