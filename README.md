@@ -9,7 +9,7 @@
 - [x] Database & Models Setup
 - [x] Server Actions & Webhook
 - [x] Add Image Form (React Hook Form + Zod Validation)
-- [ ] Cloudinary Media Uploader
+- [x] Cloudinary Media Uploader
 - [ ] Transformed Image Components
 - [ ] Image Server Action
 - [ ] Homepage + Search & Pagination
