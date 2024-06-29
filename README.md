@@ -8,7 +8,7 @@
 - [x] Layout Sidebar & Mobile Navigation
 - [x] Database & Models Setup
 - [x] Server Actions & Webhook
-- [ ] Add Image Form (React Hook Form + Zod Validation)
+- [x] Add Image Form (React Hook Form + Zod Validation)
 - [ ] Cloudinary Media Uploader
 - [ ] Transformed Image Components
 - [ ] Image Server Action
