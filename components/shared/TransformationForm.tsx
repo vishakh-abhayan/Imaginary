@@ -35,6 +35,7 @@ import { useState, useSyncExternalStore, useTransition } from "react";
 import { config } from "process";
 import { updateCredits } from "@/lib/actions/user.actions";
 import MediaUploader from "./MediaUploader";
+import TransformedImage from "./TransformedImage";
 
 export const formSchema = z.object({
   title: z.string(),
@@ -57,7 +58,7 @@ function TransformationForm({
     useState<Transformations | null>(null);
   const [isTransforming, setIsTransforming] = useState(false);
   const [image, setImage] = useState(data);
-  const [tarnsformationConfig, setTarnsformationConfig] = useState(config);
+  const [transformationConfig, setTransformationConfig] = useState(config);
   const [isPending, startTransition] = useTransition();
 
   const initialValues =
@@ -115,19 +116,19 @@ function TransformationForm({
     }, 1000);
   };
 
-  // TODO : Transform Handler
+  // TODO : Update creditFee to Something else
   const onTransformHandler = async () => {
     setIsTransforming(true);
 
-    setTarnsformationConfig(
-      deepMergeObjects(newTransformation, tarnsformationConfig)
+    setTransformationConfig(
+      deepMergeObjects(newTransformation, transformationConfig)
     );
 
     setNewTransformation(null);
 
     startTransition(async () => {
       // retrun to update crated
-      //   await updateCredits(userId,creatidFee);
+      await updateCredits(userId, -1);
     });
   };
 
@@ -232,6 +233,14 @@ function TransformationForm({
                 type={type}
               />
             )}
+          />
+          <TransformedImage
+            image={image}
+            type={type}
+            title={form.getValues().title}
+            isTransforming={isTransforming}
+            setIsTransforming={setIsTransforming}
+            transformationConfig={transformationConfig}
           />
         </div>
 
