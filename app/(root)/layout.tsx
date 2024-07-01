@@ -1,5 +1,4 @@
 import Sidebar from "@/components/shared/Sidebar";
-import React from "react";
 import MobileNav from "@/components/shared/MobileNav";
 import { Toaster } from "@/components/ui/toaster";
 
