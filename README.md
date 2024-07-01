@@ -10,7 +10,7 @@
 - [x] Server Actions & Webhook
 - [x] Add Image Form (React Hook Form + Zod Validation)
 - [x] Cloudinary Media Uploader
-- [ ] Transformed Image Components
+- [x] Transformed Image Components
 - [ ] Image Server Action
 - [ ] Homepage + Search & Pagination
 - [ ] Image details, Update & Delete Image
